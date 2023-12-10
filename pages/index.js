@@ -19,14 +19,14 @@ export default function Home({ githubProfileData }) {
     <div>
       <SEO />
       <Navigation />
-      <Greetings />
+      <Greetings name={"Welcome!"} />
       <Skills />
       <Education />
       <Experience />
       <Contact />
       <Feedbacks />
       <Projects />
-      <GithubProfileCard prof={githubProfileData} />
+      {/* <GithubProfileCard prof={githubProfileData} /> */}
     </div>
   );
 }
@@ -35,12 +35,12 @@ Home.prototype = {
   githubProfileData: PropTypes.object.isRequired,
 };
 
-export async function getStaticProps(_) {
-  const githubProfileData = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
-  ).then((res) => res.json());
+// export async function getStaticProps(_) {
+//   const githubProfileData = await fetch(
+//     `https://api.github.com/users/${openSource.githubUserName}`
+//   ).then((res) => res.json());
 
-  return {
-    props: { githubProfileData },
-  };
-}
+//   return {
+//     props: { githubProfileData },
+//   };
+// }
