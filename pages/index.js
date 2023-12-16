@@ -21,11 +21,11 @@ export default function Home({ githubProfileData }) {
       <Navigation />
       <Greetings name={"Welcome!"} />
       <Skills />
-      <Education />
+      {/* <Education /> 
       <Experience />
       <Contact />
       <Feedbacks />
-      <Projects />
+      <Projects />*/}
       {/* <GithubProfileCard prof={githubProfileData} /> */}
     </div>
   );

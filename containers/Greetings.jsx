@@ -39,7 +39,7 @@ const Greetings = (props) => {
                     <Button
                       className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                       color="default"
-                      href={props.url || greetings.resumeLink}
+                      href={props.url || "//api.whatsapp.com/send?phone=918072274887"}
                       target="_blank"
                       rel="noopener"
                       aria-label="Photos"
@@ -47,7 +47,7 @@ const Greetings = (props) => {
                       <span className="btn-inner--icon mr-1">
                         <i className="fa fa-file" />
                       </span>
-                      <span className="btn-inner--text">See Your Photos</span>
+                      <span className="btn-inner--text">{props.url ? "See Your Photos" : "Place Order"}</span>
                     </Button>
                   </div>
                 </Col>

@@ -25,96 +25,114 @@ export const socialLinks = {
 };
 
 export const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What we do",
+  subTitle: "FREEZE YOUR WONDERFUL MEMORIES",
   data: [
     {
-      title: "Full Stack Development",
+      title: "",
       lottieAnimationFile: "/lottie/webdev.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
+          `📸  Wedding Shoot - Documenting the special moments of a wedding day `
         ),
         emoji(
-          "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks."
+          "📸 Birthday parties - Capturing the joy and laughter of celebrating another year around the sun. "
         ),
         emoji(
-          "⚡ Cyber Security, HackTheBox Globally Ranked 534, Top 2% in PicoCTF 2022"
+          "📸 Maternity shoot - Celebrating the miracle of life with beautiful portraits of the mom-to-be. "
+        ),
+        emoji(
+          "📸 Modeling - Showcasing personalities and styles through captivating fashion and beauty photography."
+        ),
+        emoji(
+          "📸 Portraits - Capturing the essence of individuals and their stories in timeless portraits. "
+        ),
+        emoji(
+          "📸 Outdoor shoot - Embracing the beauty of nature and creating stunning images in diverse settings. "
+        ),
+        emoji(
+          "📸 Drone - Elevating perspectives and capturing breathtaking aerial views of the world. "
+        ),
+        emoji(
+          "📸 Flim making - Weaving narratives with moving images and sound, bringing stories to life."
+        ),
+        emoji(
+          "📸 LED Wall - Transforming spaces with vibrant visuals and immersive multimedia experiences."
         ),
       ],
       softwareSkills: [
-        {
-          skillName: "python",
-          fontAwesomeClassname: "logos:python",
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "logos:java",
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "logos:javascript",
-        },
-        {
-          skillName: "cpp",
-          fontAwesomeClassname: "logos:c-plusplus",
-        },
-        {
-          skillName: "reactjs",
-          fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "vuejs",
-          fontAwesomeClassname: "logos:vue",
-        },
-        {
-          skillName: "nodejs",
-          fontAwesomeClassname: "logos:nodejs-icon",
-        },
-        {
-          skillName: "astro",
-          fontAwesomeClassname: "vscode-icons:file-type-astro",
-        },
-        {
-          skillName: "npm",
-          fontAwesomeClassname: "logos:npm-icon",
-        },
-        {
-          skillName: "php",
-          fontAwesomeClassname: "logos:php",
-        },
-        {
-          skillName: "yarn",
-          fontAwesomeClassname: "logos:yarn",
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "logos:postgresql",
-        },
-        {
-          skillName: "MySQL-icon",
-          fontAwesomeClassname: "logos:mysql-icon",
-        },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "logos:vercel-icon",
-        },
-        {
-          skillName: "NextJS",
-          fontAwesomeClassname: "logos:nextjs-icon",
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "logos:mongodb-icon",
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "logos:django-icon",
-        },
-        {
-          skillName: "spring-boot",
-          fontAwesomeClassname: "logos:spring-icon",
-        },
+        // {
+        //   skillName: "python",
+        //   fontAwesomeClassname: "logos:python",
+        // },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "logos:java",
+        // },
+        // {
+        //   skillName: "JavaScript",
+        //   fontAwesomeClassname: "logos:javascript",
+        // },
+        // {
+        //   skillName: "cpp",
+        //   fontAwesomeClassname: "logos:c-plusplus",
+        // },
+        // {
+        //   skillName: "reactjs",
+        //   fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+        // },
+        // {
+        //   skillName: "vuejs",
+        //   fontAwesomeClassname: "logos:vue",
+        // },
+        // {
+        //   skillName: "nodejs",
+        //   fontAwesomeClassname: "logos:nodejs-icon",
+        // },
+        // {
+        //   skillName: "astro",
+        //   fontAwesomeClassname: "vscode-icons:file-type-astro",
+        // },
+        // {
+        //   skillName: "npm",
+        //   fontAwesomeClassname: "logos:npm-icon",
+        // },
+        // {
+        //   skillName: "php",
+        //   fontAwesomeClassname: "logos:php",
+        // },
+        // {
+        //   skillName: "yarn",
+        //   fontAwesomeClassname: "logos:yarn",
+        // },
+        // {
+        //   skillName: "PostgreSQL",
+        //   fontAwesomeClassname: "logos:postgresql",
+        // },
+        // {
+        //   skillName: "MySQL-icon",
+        //   fontAwesomeClassname: "logos:mysql-icon",
+        // },
+        // {
+        //   skillName: "Vercel",
+        //   fontAwesomeClassname: "logos:vercel-icon",
+        // },
+        // {
+        //   skillName: "NextJS",
+        //   fontAwesomeClassname: "logos:nextjs-icon",
+        // },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "logos:mongodb-icon",
+        // },
+        // {
+        //   skillName: "Django",
+        //   fontAwesomeClassname: "logos:django-icon",
+        // },
+        // {
+        //   skillName: "spring-boot",
+        //   fontAwesomeClassname: "logos:spring-icon",
+        // },
       ],
     },
   ],
