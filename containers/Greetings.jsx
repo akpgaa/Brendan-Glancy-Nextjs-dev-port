@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { greetings } from "../portfolio";
+import { greetings, socialLinks } from "../portfolio";
 import dynamic from "next/dynamic";
 
 const ParticleBg = dynamic(() => import("particles-bg"), {
@@ -16,6 +16,9 @@ const Greetings = (props) => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
   });
+  const [isURL, setIsURL] = useState(false)
+  const text = isURL ? "See Your Photos" : "Follow Us To View Photos"
+  const url = isURL ? props.url : socialLinks.instagram
   return (
     <main>
       <div className="position-relative">
@@ -39,7 +42,8 @@ const Greetings = (props) => {
                     <Button
                       className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                       color="default"
-                      href={props.url || "//api.whatsapp.com/send?phone=918072274887"}
+                      href={url || "//api.whatsapp.com/send?phone=918072274887"}
+                      onClick={() => setIsURL(true)}
                       target="_blank"
                       rel="noopener"
                       aria-label="Photos"
@@ -47,7 +51,7 @@ const Greetings = (props) => {
                       <span className="btn-inner--icon mr-1">
                         <i className="fa fa-file" />
                       </span>
-                      <span className="btn-inner--text">{props.url ? "See Your Photos" : "Place Order"}</span>
+                      <span className="btn-inner--text">{props.url ? text : "Place Order"}</span>
                     </Button>
                   </div>
                 </Col>
